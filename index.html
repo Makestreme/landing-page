@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Makestreme — Arpan Mondal's DIY electronics portfolio, sponsor page, and media kit." />
+  <title>Makestreme | Arpan Mondal</title>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Makestreme home">
+        <img src="assets/logo.png" alt="Makestreme logo" class="brand-logo" />
+        <div>
+          <strong>Makestreme</strong>
+          <span>Arpan Mondal</span>
+        </div>
+      </a>
+      <a class="button button-primary button-small" href="mailto:makestreme@gmail.com?subject=Inquiry:%20Makestreme%20Partnership">Contact me</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-banner-wrap">
+        <img src="assets/banner.jpg" alt="Makestreme channel banner" class="hero-banner" />
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hardware Engineer & Creator</p>
+          <h1>Engineering practical and creative DIY projects.</h1>
+          <p class="hero-text">
+            I’m Arpan Mondal, the creator behind Makestreme. I design and build custom DIY electronics, educational tutorials, and hardware prototypes.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View projects</a>
+            <a class="button button-secondary" href="#contact">Work with me</a>
+          </div>
+          <div class="hero-points">
+            <span>Product reviews</span>
+            <span>Sponsored tutorials</span>
+            <span>Custom prototyping</span>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <img src="assets/profile.jpg" alt="Arpan Mondal portrait" class="profile-photo" />
+          <div class="profile-body">
+            <div>
+              <strong>Arpan Mondal</strong>
+              <p>Hardware Engineer, India</p>
+            </div>
+            <div class="mini-stats" id="profile-stats"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container">
+        <div class="section-heading compact center">
+          <span class="kicker">Metrics</span>
+          <h2>Channel Reach & Audience</h2>
+        </div>
+        <div class="stats-grid" id="stats-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading compact center">
+          <span class="kicker">Portfolio</span>
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="sponsors">
+      <div class="container">
+        <div class="section-heading compact center">
+          <span class="kicker">Trusted By</span>
+          <h2>Brand Collaborations</h2>
+        </div>
+        <div class="sponsors-grid" id="sponsors-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container two-col">
+        <div class="panel">
+          <div class="section-heading compact">
+            <span class="kicker">Services</span>
+            <h2>Partnership Opportunities</h2>
+          </div>
+          <ul class="service-list" id="services-list"></ul>
+        </div>
+
+        <div class="panel" id="contact">
+          <div class="section-heading compact">
+            <span class="kicker">Contact</span>
+            <h2>Get in Touch</h2>
+          </div>
+          <p class="muted">
+            For inquiries and collaborations, please reach out via email or use the contact form below.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:makestreme@gmail.com?subject=Inquiry:%20Makestreme%20Partnership">Email me</a>
+            <a class="button button-secondary" href="https://www.youtube.com/@makestreme" target="_blank" rel="noopener">YouTube</a>
+          </div>
+
+          <div class="contact-lines">
+            <div>
+              <span>Primary Email</span>
+              <strong>makestreme@gmail.com</strong>
+            </div>
+            <div>
+              <span>Alternative</span>
+              <strong>makestreme@proton.me</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container form-wrap">
+        <form class="panel contact-form" id="contact-form">
+          <div class="section-heading compact">
+            <span class="kicker">Inquiry</span>
+            <h2>Send a Message</h2>
+          </div>
+          <div class="form-grid">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Name" required />
+            </label>
+            <label>
+              <span>Your email</span>
+              <input type="email" name="email" placeholder="name@company.com" required />
+            </label>
+            <label class="full">
+              <span>Subject</span>
+              <input type="text" name="subject" placeholder="Partnership Inquiry" required />
+            </label>
+            <label class="full">
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Please share details about your product or campaign." required></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>© <span id="current-year"></span> Makestreme</strong>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
