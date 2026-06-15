@@ -4,7 +4,7 @@ const fallbackStats = {
   youtube: {
     subscribers: 1300,
     totalViews: 100000,
-    averageViews: 3000,
+    averageViews: 10000,
     uploadFrequency: "1 video every 1–2 months",
   },
   instructables: {
@@ -27,10 +27,10 @@ const statsOrder = [
     note: "Channel reach"
   },
   {
-    label: "Avg views/video",
+    label: "Avg views/project",
     key: "averageViews",
     source: ["youtube", "averageViews"],
-    note: "Typical performance"
+    note: "Youtube & blog articles"
   },
   {
     label: "Instructables views",
